@@ -1,0 +1,17 @@
+.idea/
+vouchers/
+ceremony-client
+.config*
+.DS_Store
+*.mprof
+.env
+.env.signers
+.task
+node-tmp-*
+build
+
+# Rust
+target
+
+
+node/node

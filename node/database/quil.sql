@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS frame_info (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    frame_number BIGINT NOT NULL,
+    account_name VARCHAR(255) NOT NULL,
+    output_cnt INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
