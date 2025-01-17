@@ -1,0 +1,12 @@
+**/.config*
+**/.idea
+**/.vscode
+github.env
+Taskfile.yaml
+.git
+
+# Rust
+target
+vdf/generated
+bls48581/generated
+
